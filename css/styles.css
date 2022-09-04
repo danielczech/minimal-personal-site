@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+  }
+
+  @font-face {
+  font-family: icon-font;
+  src: url(../fonts/icon-font.ttf);
+  }
+
+  body { 
+    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("../img/background2.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0; 
+    padding: 0; 
+    font-family: "Verdana", sans-serif; 
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  p {
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+  } 
+
+  img {
+    /*border: 1px solid #FFF;*/
+    border-radius: 50%;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    text-align: left;
+    width: 90%;
+    height: 90%;
+  }
+
+  li{
+    padding-bottom: 0.1%;
+  }
+
+  .navbar {
+    text-align: right;
+    margin-top: 0em;
+    font-family:icon-font;
+    font-size: 1.1em;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-right: 1em;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+  }
+
+  .icons{
+    font-family:icon-font;
+    font-size: 2em;
+  }
+
+  .name{
+    font-size: 3em;
+    margin-bottom: 0em;
+  }
+
+  .text{
+    font-size: 1.7em;
+  }
+
+  .links{
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+
+  .keywords{
+    font-size: 1.3em;
+  }
+
+
+  .index_col {
+    text-align: center;
+  }
+
+  .single_col {
+    text-align: center;
+  }
+
+  .sidecol {
+    width: 12.5%;
+    padding-bottom: 2%;
+  } 
+  
+  .itemcol{
+    width: 18%;
+    vertical-align:top;
+    padding-bottom: 2%;
+  }
+
+  .descriptioncol{
+    width: 57%;
+    vertical-align:top;
+    padding-bottom: 2%;
+  }
+
+  .list {
+    text-align: left;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+    padding-top: 0.1%;
+    list-style-type:none;
+  }
+
+  .column_left {
+    text-align: right;
+    float: left;
+    width: 40%;
+    padding-left: 3%;
+    padding-right: 1.5%;
+    padding-top: 2%
+  }
+  
+  .column_right {
+    /*text-align: center;*/
+    /*padding-left: 10%;*/
+    float: left;
+    width: 60%;
+    padding-left: 1.5%;
+    padding-right: 3%;
+    padding-top: 3%;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .column_left {
+      float: center;
+      width: 100%;
+      padding-left: 15%;
+      padding-right: 15%;
+    }
+    .column_right {
+      float: center;
+      width: 100%;
+      padding-top: 1%;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+  }
